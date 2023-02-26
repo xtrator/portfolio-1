@@ -36,6 +36,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 15px;
+
+  /* css for .about class */
+  display: flex;
+  align-items: center;
+  padding: 82px
 }
 
 .navbar {
@@ -48,4 +53,15 @@
   left: 0px;
   right: 0px;
   top: 0px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 28%;
+  padding: 64px;
+  gap: 31px;
+  font-size: 1.5rem;
 }
