@@ -1,0 +1,31 @@
+.p {
+  flex: none;
+  order: 4;
+  flex-grow: 1;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-selected {
+  color: #381485;
+  background-color: #C7EB7A;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0px;
+  gap: 8px;
+
+  position: absolute;
+  height: 62px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
