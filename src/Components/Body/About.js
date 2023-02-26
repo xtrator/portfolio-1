@@ -13,7 +13,7 @@ export default function About() {
     if (index < info.length - 1) {
       setTimeout(() => {
         setDisplayedInfo(info.slice(0, index));
-      }, 20);
+      }, 1);
       index += 1;
     } else {
       setTimeout(() => {
@@ -25,7 +25,10 @@ export default function About() {
   return (
     <div className="about">
       <p>{title}</p>
-      <p>{displayedInfo + (showTerminalBlock ? "█" : ".")}</p>
+      <p>
+        {displayedInfo}
+        {showTerminalBlock ? "█" : "."}
+      </p>
     </div>
   );
 }
